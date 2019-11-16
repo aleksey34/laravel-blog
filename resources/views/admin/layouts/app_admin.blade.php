@@ -39,13 +39,13 @@
                             </a>
                             <ul class="dropdown-menu" role="menu">
                                 <li class="nav-item">
-                                    <a class=" nav-link" href="#">Категории</a>
+                                    <a class=" nav-link"  href="{{route("admin.index")}}">Dashboard</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class=" nav-link" href="{{route("admin.category.index")}}">Категории</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class=" nav-link"  href="#">Материалы</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class=" nav-link"  href="#">Категории</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class=" nav-link"  href="#">Категории</a>
